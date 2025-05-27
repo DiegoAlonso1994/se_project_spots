@@ -1,0 +1,16 @@
+.page {
+  background-color: #fcf5e5;
+  min-height: 100vh;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.page__section {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/*Add media query for smaller screens - Mobile View*/
