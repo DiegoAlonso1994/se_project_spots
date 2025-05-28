@@ -8,7 +8,7 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -61,7 +61,7 @@
 }
 
 .profile__edit-btn:hover {
-  color: #000;
+  opacity: 1;
 }
 
 .profile__add-btn {
@@ -74,18 +74,17 @@
   background-color: #212121;
   color: #fcf5e5;
   border-radius: 8px;
-  font-family: Poppins;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   cursor: pointer;
   border: none;
   padding: 18px 32px;
 }
 
 .profile__add-btn:hover {
-  background-color: rgba(33, 33, 33, 0.8);
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
@@ -124,7 +123,3 @@
     width: 100%;
   }
 }
-/* Todo:
-1. Remove the margin from content title
-2. Apply properties tothe .profile__add-btn,
-then move to the correct loaction using margin property */
